@@ -1,0 +1,14 @@
+create database employeedetails;
+use employee;
+create table tried(
+    id bigint(5) PRIMARY KEY AUTO_INCREMENT,
+    firstname varchar(50),
+    lastname varchar(50),
+    gender varchar(6),
+    birthday date,
+    email varchar(150),
+    occupation varchar(150),
+    salaryRange int(30),
+    profilephoto BLOB,
+    resumeCV BLOB
+);

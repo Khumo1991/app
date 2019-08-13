@@ -1,0 +1,41 @@
+#{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #eee;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: new time roman;
+}
+
+#btnapply{
+	color: #fff;
+	width: 130px;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 80px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+#h1{
+	font-size: 40px;
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+label{
+	font-size: 18px;
+	margin-top: 20px;
+	font-weight: normal;
+}
+#frm{
+	border: solid gray 1px;
+	width: 35%;
+	border: 2px solid gray;
+	border-radius: 0px;
+	margin: 50px auto;
+	background: transparent;
+	padding: 20px;
+}
